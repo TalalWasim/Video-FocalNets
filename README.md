@@ -1,4 +1,4 @@
-# Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition (ICCV'23)
+# Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition
 
 
 [Syed Talal Wasim*](https://talalwasim.github.io),
@@ -8,8 +8,9 @@
 [Mubarak Shah](https://www.crcv.ucf.edu/person/mubarak-shah/),
 [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en)
 
+*Joint first authors
 
-[![Website](https://img.shields.io/badge/Project-Website-87CEEB)]()
+[![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://talalwasim.github.io/Video-FocalNets/)
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 <hr />
 
@@ -165,14 +166,16 @@ Alternatively, the `DATA.ROOT`, `DATA.TRAIN_FILE`, and `DATA.VAL_FILE` paths can
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
 ```bibtex
-@inproceedings{wasim2023videofocalnets,
-    author    = {Syed Talal Wasim and Muhammad Uzair Khattak and Muzammal Naseer and Salman Khan and Mubarak Shah and Fahad Shahbaz Khan},
-    title     = {Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
-    booktitle = {ICCV},
-    year      = {2023},
-  }
+@article{wasim2023videofocalnets,
+    title={Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
+    author={Syed Talal Wasim and Muhammad Uzair Khattak and Muzammal Naseer and Salman Khan and Mubarak Shah and Fahad Shahbaz Khan},
+    journal={arXiv:},
+    year={2023}
+}
 ```
 
+## Contact
+If you have any questions, please create an issue on this repository or contact at syed.wasim@mbzuai.ac.ae or uzair.khattak@mbzuai.ac.ae.
 
 ## Acknowledgements
 Our code is based on [FocalNets](https://github.com/microsoft/FocalNet), [XCLIP](https://github.com/microsoft/VideoX/tree/master/X-CLIP) and [UniFormer](https://github.com/Sense-X/UniFormer) repositories. We thank the authors for releasing their code. If you use our model, please consider citing these works as well.
