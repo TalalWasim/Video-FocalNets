@@ -1,0 +1,37 @@
+DATA:
+    ROOT: ''
+    TRAIN_FILE: '../datasets/Diving48/annotations/train.csv'
+    VAL_FILE: '../datasets/Diving48/annotations/test.csv'
+    DATASET: diving48
+    NUM_FRAMES: 16
+    NUM_CLASSES: 48
+    LABEL_LIST: 'labels/diving_48_labels.csv'
+    BATCH_SIZE: 8
+MODEL:
+  TYPE: videofocalnet_base
+  NAME: video-focalnet_base
+  DROP_PATH_RATE: 0.5
+  NUM_CLASSES: 48
+  FOCAL:
+    EMBED_DIM: 128
+    DEPTHS: [2, 2, 18, 2]
+    FOCAL_LEVELS: [2, 2, 2, 2]
+    FOCAL_WINDOWS: [3, 3, 3, 3]
+TRAIN:
+  BASE_LR: 0.01
+  WARMUP_LR: 0.0001
+  MIN_LR: 0.0001
+  EPOCHS: 120
+  WEIGHT_DECAY: 1e-4
+  OPTIMIZER:
+    NAME: "sgd"
+  WARMUP_EPOCHS: 20
+  PRETRAINED_PATH: './pretrained/focalnet_base_srf.pth'
+AUG:
+  FRAME_INTERVAL: 4
+  FLIP_RATIO: 0.5
+  COLOR_JITTER: 0.8
+  GRAY_SCALE: 0.2
+  MIXUP: 0.8
+  MIXUP_PROB: 0.5
+SAVE_FREQ: 10
