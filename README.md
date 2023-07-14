@@ -1,5 +1,4 @@
-# Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition
-
+# Official repository for "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" [ICCV 2023] 
 
 [Syed Talal Wasim*](https://talalwasim.github.io),
 [Muhammad Uzair Khattak*](https://muzairkhattak.github.io/),
