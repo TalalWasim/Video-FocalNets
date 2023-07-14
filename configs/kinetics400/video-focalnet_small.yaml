@@ -3,7 +3,7 @@ DATA:
     TRAIN_FILE: '../datasets/kinetics-dataset/k400_resized_1/annotations_svt/train.csv'
     VAL_FILE: '../datasets/kinetics-dataset/k400_resized_1/annotations_svt/val.csv'
     DATASET: kinetics400
-    NUM_FRAMES: 16
+    NUM_FRAMES: 8
     NUM_CLASSES: 400
     LABEL_LIST: 'labels/kinetics_400_labels.csv'
     BATCH_SIZE: 8

@@ -3,7 +3,7 @@ DATA:
     TRAIN_FILE: '../datasets/Diving48/annotations/train.csv'
     VAL_FILE: '../datasets/Diving48/annotations/test.csv'
     DATASET: diving48
-    NUM_FRAMES: 16
+    NUM_FRAMES: 8
     NUM_CLASSES: 48
     LABEL_LIST: 'labels/diving_48_labels.csv'
     BATCH_SIZE: 8

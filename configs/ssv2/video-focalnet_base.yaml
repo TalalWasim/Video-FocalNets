@@ -3,7 +3,7 @@ DATA:
     TRAIN_FILE: '../datasets/ssv2/labels/train.csv'
     VAL_FILE: '../datasets/ssv2/labels/val.csv'
     DATASET: ssv2
-    NUM_FRAMES: 16
+    NUM_FRAMES: 8
     NUM_CLASSES: 174
     LABEL_LIST: 'labels/ssv2_174_labels.csv'
     BATCH_SIZE: 8

@@ -3,7 +3,7 @@ DATA:
     TRAIN_FILE: '../datasets/ActivityNet/annotations_resized/train.csv'
     VAL_FILE: '../datasets/ActivityNet/annotations_resized/val.csv'
     DATASET: activitynet
-    NUM_FRAMES: 16
+    NUM_FRAMES: 8
     NUM_CLASSES: 200
     LABEL_LIST: 'labels/activitynet_200_labels.csv'
     BATCH_SIZE: 8
