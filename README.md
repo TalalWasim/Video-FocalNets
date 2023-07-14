@@ -11,7 +11,7 @@
 *Joint first authors
 
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://talalwasim.github.io/Video-FocalNets/)
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2307.06947)
 <hr />
 
 > **Abstract:**
@@ -169,7 +169,7 @@ If you find our work, this repository, or pretrained models useful, please consi
 @article{wasim2023videofocalnets,
     title={Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
     author={Syed Talal Wasim and Muhammad Uzair Khattak and Muzammal Naseer and Salman Khan and Mubarak Shah and Fahad Shahbaz Khan},
-    journal={arXiv:},
+    journal={arXiv:2307.06947},
     year={2023}
 }
 ```
