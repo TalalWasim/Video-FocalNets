@@ -117,7 +117,7 @@ Please follow [DATA.md](./DATA.md) for data preparation.
 
 |       Model      |    Depth   | Dim | Kernels | Frames | Top-1 | Download |
 |:----------------:|:----------:|:---:|:-------:|:------:|:-----:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  71.1 |   [ckpt](https://drive.google.com/file/d/1MMZeDucN1cfC5MiTGIft8xNfo5358dA2/view?usp=sharing)   |
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  90.8 |   [ckpt](https://drive.google.com/file/d/1MMZeDucN1cfC5MiTGIft8xNfo5358dA2/view?usp=sharing)   |
 
 ### ActivityNet-v1.3
 
