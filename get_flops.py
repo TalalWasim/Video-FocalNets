@@ -30,7 +30,7 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 def parse_option():
     parser = argparse.ArgumentParser('FocalNet training and evaluation script', add_help=False)
     parser.add_argument('--cfg', type=str, required=False, metavar="FILE", help='path to config file',
-                        default='./configs/kinetics/video_focalnet_tiny_srf.yaml')
+                        default='./configs/kinetics400/video-focalnet_tiny.yaml')
     parser.add_argument(
         "--opts",
         help="Modify config options by adding 'KEY VALUE' pairs. ",
@@ -49,6 +49,7 @@ def parse_option():
     parser.add_argument('--output', default='output', type=str, metavar='PATH',
                         help='root of output folder')
     parser.add_argument('--eval', action='store_true', help='Perform evaluation only')
+    parser.add_argument("--local_rank", type=int, default=0, help='local rank for DistributedDataParallel')
 
     args, unparsed = parser.parse_known_args()
 
@@ -59,7 +60,9 @@ def parse_option():
 
 
 _, config = parse_option()
-
+config.defrost()
+config.DATA.NUM_FRAMES = 8
+config.freeze()
 model = build_model(config)
 model = model.to(device)
 data = torch.randn(1,8,3,224,224).to(device)
