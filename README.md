@@ -95,35 +95,35 @@ Please follow [DATA.md](./DATA.md) for data preparation.
 
 ### Kinetics-400
 
-|       Model      |    Depth   | Dim | Kernels | Frames | Top-1 | Download |
-|:----------------:|:----------:|:---:|:-------:|:------:|:-----:|:--------:|
-| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |   16   |  79.8 |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |   16   |  81.4 |   [ckpt](https://drive.google.com/file/d/1gO4_tluuoR4mn2bSQRNyy9_wFCnUSiQ0/view?usp=sharing)   |
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  83.6 |   [ckpt](https://drive.google.com/file/d/1tc1AKKmvHN7Hzxpd53QsBIMQZmLH8ozX/view?usp=drive_link)   |
+|       Model      |    Depth   | Dim | Kernels | Top-1 | Download |
+|:----------------:|:----------:|:---:|:-------:|:-----:|:--------:|
+| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  79.8 |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
+| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  81.4 |   [ckpt](https://drive.google.com/file/d/1gO4_tluuoR4mn2bSQRNyy9_wFCnUSiQ0/view?usp=sharing)   |
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  83.6 |   [ckpt](https://drive.google.com/file/d/1tc1AKKmvHN7Hzxpd53QsBIMQZmLH8ozX/view?usp=drive_link)   |
 
 ### Kinetics-600
 
-|       Model      |    Depth   | Dim | Kernels | Frames | Top-1 | Download |
-|:----------------:|:----------:|:---:|:-------:|:------:|:-----:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  86.7 |   [ckpt](https://drive.google.com/file/d/16u1dij3dde0KmaajiB5lAFy8FaRvQDmS/view?usp=sharing)   |
+|       Model      |    Depth   | Dim | Kernels | Top-1 | Download |
+|:----------------:|:----------:|:---:|:-------:|:-----:|:--------:|
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  86.7 |   [ckpt](https://drive.google.com/file/d/16u1dij3dde0KmaajiB5lAFy8FaRvQDmS/view?usp=sharing)   |
 
 ### Something-Something-v2
 
-|       Model      |    Depth   | Dim | Kernels | Frames | Top-1 | Download |
-|:----------------:|:----------:|:---:|:-------:|:------:|:-----:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  71.1 |   [ckpt](https://drive.google.com/file/d/1MIPLjMVDmYEY5jmJs8pRRIj4gKNVqETg/view?usp=sharing)   |
+|       Model      |    Depth   | Dim | Kernels | Top-1 | Download |
+|:----------------:|:----------:|:---:|:-------:|:-----:|:--------:|
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  71.1 |   [ckpt](https://drive.google.com/file/d/1MIPLjMVDmYEY5jmJs8pRRIj4gKNVqETg/view?usp=sharing)   |
 
 ### Diving-48
 
-|       Model      |    Depth   | Dim | Kernels | Frames | Top-1 | Download |
-|:----------------:|:----------:|:---:|:-------:|:------:|:-----:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  90.8 |   [ckpt](https://drive.google.com/file/d/1MMZeDucN1cfC5MiTGIft8xNfo5358dA2/view?usp=sharing)   |
+|       Model      |    Depth   | Dim | Kernels | Top-1 | Download |
+|:----------------:|:----------:|:---:|:-------:|:-----:|:--------:|
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  90.8 |   [ckpt](https://drive.google.com/file/d/1MMZeDucN1cfC5MiTGIft8xNfo5358dA2/view?usp=sharing)   |
 
 ### ActivityNet-v1.3
 
-|       Model      |    Depth   | Dim | Kernels | Frames | Top-1 | Download |
-|:----------------:|:----------:|:---:|:-------:|:------:|:-----:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |   16   |  89.8 |   [ckpt](https://drive.google.com/file/d/1Zku86i9Ol1gabqBqf0h1vtL-_H5gglA3/view?usp=sharing)   |
+|       Model      |    Depth   | Dim | Kernels | Top-1 | Download |
+|:----------------:|:----------:|:---:|:-------:|:-----:|:--------:|
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  89.8 |   [ckpt](https://drive.google.com/file/d/1Zku86i9Ol1gabqBqf0h1vtL-_H5gglA3/view?usp=sharing)   |
 
 
 
