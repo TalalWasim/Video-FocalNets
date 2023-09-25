@@ -134,7 +134,7 @@ To evaluate pre-trained Video-FocalNets on your dataset:
 ```bash
 python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use>  main.py  --eval \
 --cfg <config-file> --resume <checkpoint> \
---opts DATA.NUM_FRAMES 16 DATA.BATCH_SIZE 8 TEST.NUM_CLIP 4 TEST.NUM_CROP 3 DATA.ROOT path/to/root DATA.TRAIN_FILE train.csv DATA.VAL_FILE val.csv
+--opts DATA.NUM_FRAMES 8 DATA.BATCH_SIZE 8 TEST.NUM_CLIP 4 TEST.NUM_CROP 3 DATA.ROOT path/to/root DATA.TRAIN_FILE train.csv DATA.VAL_FILE val.csv
 ```
 
 For example, to evaluate the `Video-FocalNet-B` with a single GPU on Kinetics400:
@@ -142,7 +142,7 @@ For example, to evaluate the `Video-FocalNet-B` with a single GPU on Kinetics400
 ```bash
 python -m torch.distributed.launch --nproc_per_node 1  main.py  --eval \
 --cfg configs/kinetics400/video_focalnet_base.yaml --resume video-focalnet_base_k400.pth \
---opts DATA.NUM_FRAMES 16 DATA.BATCH_SIZE 8 TEST.NUM_CLIP 4 TEST.NUM_CROP 3 DATA.ROOT path/to/root DATA.TRAIN_FILE train.csv DATA.VAL_FILE val.csv
+--opts DATA.NUM_FRAMES 8 DATA.BATCH_SIZE 8 TEST.NUM_CLIP 4 TEST.NUM_CROP 3 DATA.ROOT path/to/root DATA.TRAIN_FILE train.csv DATA.VAL_FILE val.csv
 ```
 
 Alternatively, the `DATA.ROOT`, `DATA.TRAIN_FILE`, and `DATA.VAL_FILE` paths can be set directly in the config files provided in the `configs` directory.
