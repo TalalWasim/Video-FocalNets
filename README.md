@@ -169,11 +169,13 @@ Additionally, the TRAIN.PRETRAINED_PATH can be set (either in the config file or
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
 ```bibtex
-@article{wasim2023videofocalnets,
-    title={Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
-    author={Syed Talal Wasim and Muhammad Uzair Khattak and Muzammal Naseer and Salman Khan and Mubarak Shah and Fahad Shahbaz Khan},
-    journal={arXiv:2307.06947},
-    year={2023}
+@InProceedings{Wasim_2023_ICCV,
+    author    = {Wasim, Syed Talal and Khattak, Muhammad Uzair and Naseer, Muzammal and Khan, Salman and Shah, Mubarak and Khan, Fahad Shahbaz},
+    title     = {Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {13778-13789}
 }
 ```
 
