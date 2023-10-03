@@ -173,9 +173,7 @@ If you find our work, this repository, or pretrained models useful, please consi
     author    = {Wasim, Syed Talal and Khattak, Muhammad Uzair and Naseer, Muzammal and Khan, Salman and Shah, Mubarak and Khan, Fahad Shahbaz},
     title     = {Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
     year      = {2023},
-    pages     = {13778-13789}
 }
 ```
 
