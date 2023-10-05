@@ -3,7 +3,7 @@ einops==0.4.1
 imgaug==0.4.0
 numpy==1.22.3
 pandas==1.4.2
-Pillow==9.0.1
+Pillow==10.0.1
 PyYAML==6.0
 termcolor==2.3.0
 thop==0.1.1.post2209072238
