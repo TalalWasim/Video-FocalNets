@@ -36,7 +36,7 @@
 <!--te-->
 
 ## :rocket: News
-* **(July 13, 2022)** 
+* **(July 13, 2023)** 
   * Training and evaluation codes for Video-FocalNets, along with pretrained models are released.
 <hr />
 
